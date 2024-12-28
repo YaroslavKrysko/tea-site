@@ -1,0 +1,26 @@
+.element {
+	width: 542px;
+	display: flex;
+}
+.element__text {
+	max-width: 252px;
+}
+.element__img {
+	width: 270px;
+	height: 180px;
+	margin-right: 20px;
+}
+.element__title {
+	font-size: 24px;
+	height: 86px;
+	margin-bottom: 10px;
+}
+.element__author {
+	font-size: 13px;
+	margin-bottom: 48px;
+}
+.element__more {
+	margin-top: 60px;
+	width: 100%;
+	position: relative;
+}

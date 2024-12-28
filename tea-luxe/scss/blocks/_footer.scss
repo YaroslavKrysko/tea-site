@@ -1,0 +1,82 @@
+.footer__info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.footer__products {
+	max-width: 97px;
+}
+.products__title {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+.products__nav {
+}
+.nav__item {
+	font-size: 16px;
+	&:not(:last-child) {
+		margin-bottom: 20px;
+	}
+}
+.footer__company {
+}
+.company__title {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+.company__nav {
+}
+.nav {
+}
+.footer__quoute {
+	padding-top: 79px;
+	max-width: 269px;
+}
+.footer__quoute-text {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.footer__quoute-author {
+	font-size: 12px;
+}
+.footer__sit {
+	max-width: 270px;
+}
+.sit__title {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+.sit__sub-title {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.sit__contacts {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.contacts {
+}
+.contacts__logo {
+	margin-right: 40px;
+}
+.number__img {
+	margin-right: 10px;
+}
+.email__img {
+	margin-right: 10px;
+}
+.contacts__number {
+	margin-bottom: 20px;
+}
+.contacts__email {
+}
+.sit__socials {
+}
+.socials__nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: end;
+	gap: 20px;
+}

@@ -1,0 +1,16 @@
+.quote__text {
+	position: relative;
+	font-weight: 300;
+	font-style: italic;
+
+	&::after {
+		content: "";
+		position: absolute;
+		right: 200px;
+		bottom: -13px;
+		width: 359px;
+		height: 61px;
+		opacity: 50%;
+		background-color: $secondary-color;
+	}
+}

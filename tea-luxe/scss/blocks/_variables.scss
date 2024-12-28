@@ -1,0 +1,11 @@
+.variabel {
+	text-align: center;
+	width: 210px;
+	height: 247px;
+	&:not(:last-child) {
+		margin-right: 40px;
+	}
+}
+.variable__name {
+	font-size: 24px;
+}

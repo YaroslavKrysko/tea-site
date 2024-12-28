@@ -1,0 +1,39 @@
+.header__top {
+	font-size: 18px;
+}
+
+.header__top-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 142px;
+	width: 100%;
+	margin: 30px 0 28px 0;
+	padding: 0, 5px;
+}
+.header__top-logo {
+	width: 73px;
+	height: 105px;
+}
+
+.header__main {
+	position: relative;
+	font-family: $font-secondary;
+	color: $text-accent;
+	height: 500px;
+	width: 100%;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 100%) 97%), url(../../img/header/bcg.png);
+}
+.header__titles {
+	position: absolute;
+	z-index: 5;
+	top: 231px;
+}
+
+.header__title {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+.headet__sub-title {
+	font-size: 24px;
+}

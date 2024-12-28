@@ -1,6 +1,21 @@
 // base //
-@import url(./base/_base.scss);
-@import url(./base/_reset.scss);
-@import url(./base/_vars.scss);
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
 
 // blocks //
+
+@import "./blocks/header";
+@import "./blocks/nav";
+@import "./blocks/btn";
+@import "./blocks/quote";
+@import "./blocks/collections";
+@import "./blocks/variables";
+@import "./blocks/feedback";
+@import "./blocks/commentaries";
+@import "./blocks/blogg";
+@import "./blocks/elements";
+@import "./blocks/subscribe";
+@import "./blocks/form";
+@import "./blocks/priorities";
+@import "./blocks/footer";

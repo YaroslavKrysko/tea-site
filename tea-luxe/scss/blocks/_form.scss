@@ -1,0 +1,26 @@
+.form__input {
+	width: 439px;
+	height: 30px;
+	border-bottom: 1px solid $form-color;
+	line-height: 150%;
+	margin-right: 20px;
+	padding-bottom: 15px;
+	&::placeholder {
+		color: $form-color;
+	}
+}
+
+.form__text {
+	font-size: 13px;
+	font-weight: 300;
+	margin-top: 12px;
+}
+.form__top {
+}
+.form__bottom {
+	display: flex;
+	gap: 10px;
+	align-items: baseline;
+}
+.form__checkbox {
+}

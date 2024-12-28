@@ -5,3 +5,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant&display=swap");
+
+.container {
+	max-width: 1210px;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+
+body {
+	font-family: $font-main;
+	background-color: $bg-color;
+	color: $text-main;
+}
+h3 {
+	font-size: 40px;
+	font-family: $font-secondary;
+}
+// general //
+.header {
+	color: $font-main;
+}
+.quote {
+	text-align: center;
+	margin: 150px 0 135px 0;
+	color: $text-main;
+}
+.collections {
+	font-family: $font-secondary;
+	margin: 150px 0 150px 0;
+}
+.feedback {
+	background-color: $secondary-color;
+}
+.blogg {
+	margin: 150px 0 224px 0;
+}
+.subscribe {
+	width: 100%;
+	height: 418px;
+	background-color: $secondary-color;
+	margin-bottom: 188px;
+	padding: 100px 0;
+}
+.prioriteses {
+	margin-bottom: 150px;
+}
+.footer {
+	background-color: $secondary-color;
+	padding: 100px 0 140px 0;
+}
